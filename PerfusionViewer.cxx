@@ -222,7 +222,6 @@ vtkSmartPointer<vtkBoxWidget> boxWidget =
   boxWidget->SetInputData(imageData);
   boxWidget->PlaceWidget();
   vtkPlanes *planes = vtkPlanes::New();
-  //boxWidget->GetPlanes(planes);
   boxWidget->InsideOutOn();  
   
   boxWidget->On();
